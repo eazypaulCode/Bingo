@@ -1,0 +1,38 @@
+name: Bingo
+version: '${project.version}'
+main: de.eazypaulcode.Bingo
+api-version: 1.17
+author: eazypaulcode
+description: Bingo plugin
+commands:
+  start:
+    description: Startet Bingo
+    permission: bingo.admin
+  top:
+    description: Teleportiert dich an die Oberfläche
+  item:
+    description: Gibt dir das angegebene Item
+    permission: bingo.admin
+  suicide:
+    description: Tötet dich / einen anderen Spieler (Permission)
+    aliases:
+      - kill
+  spawn:
+    description: Teleportiert dich an den Spawn
+  world:
+    description: Teleportiert dich in die angegebene Welt
+    permission: bingo.admin
+  creeper:
+    description: Erschreckt einen Spieler mit einem Creeper-Sound
+    permission: bingo.admin
+  settings:
+    description: Öffnet die Bingo Einstellungen
+    permission: bingo.admin
+  clearchat:
+    description: Leert den Chat
+    permission: bingo.admin
+  resetchat:
+    description: Leert deinen eigenen Chat
+  saveworld:
+    description: Sichert die angegebene Welt in einer .zip Datei
+    permission: bingo.admin
